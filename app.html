@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <!--produz um comportamento responsivo adequado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>rasaki</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src="app.js"></script>
+  </head>
+  <body onresize="tamanhoTela()" class="center">
+    <script>
+        setInterval(
+            function(){
+                yasuoAleatoria()
+            }, 1000)
+        setInterval(
+            function(){
+                teemoAleatoria()
+            }, 2500)
+        setInterval(
+            function(){
+                poro()
+            }, 10000)
+    </script>
+    <div class="vidas">
+        <img id="v1" src="imagens/coracao_cheio.png">
+        <img id="v2" src="imagens/coracao_cheio.png">
+        <img id="v3" src="imagens/coracao_cheio.png">
+    </div>
+  </body>
+</html>
