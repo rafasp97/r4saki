@@ -260,5 +260,5 @@ function jogar(){
 }
 
 function paginaInicial(){
-    window.location.href = "jogo.html"
+    window.location.href = "index.html"
 }
